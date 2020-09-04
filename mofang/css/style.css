@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; list-style:none; text-decoration:none;}
+.top{height:40px; background:#DADADA; border-bottom:1px solid #C7C7C7;}
+.tm{ width:1000px; margin:0 auto;  }
+.list-l{ float:left;}
+.list-r{ float:right;}
+.top ul li{ float:left; line-height:40px; padding:0 10px;}
+.top ul li a{ color:#369; font-size:12px;}
+.ph a{ display:block; background:url(phone.png) 1px no-repeat; padding-left:20px;}
+.logo{ width:1000px; height:90px; margin:0 auto; text-align:center; padding-top:18px; background:#F0F0F0;}
+
+.nav{  height:50px; background:#3A9D9A;}
+.nav ul{width:1000px; margin:0 auto;}
+.nav ul li{ float:left; line-height:50px; width:150px; height:50px; text-align:center; border-right:1px solid #49A6A6;}
+.index{border-left:1px solid #49A6A6; background:#28898D;}
+.index a{ color:#FFF;}
+.index a:hover{ color:#000;}
+.nav ul li{ font-size:16px; color:#FFF;}
+.nav ul li:hover{ background:#FFF;color:#000;}
+.nav input{ height:25px; margin-top:12px; border-radius:2px; border:1px solid #CCC; background: #E1EBEA url(../img/index_header_search_icon.png) 140px no-repeat; padding-left:10px; color:#999; float:right;}
+.nav ul li div{ display:none; border:1px solid #ccc; width:300px; border-top:0; overflow:hidden; padding:10px 0; position:relative; z-index:1; background:#FFF;}
+.nav ul li:hover div{ display:block;}
+.nav ul li div dl{ width:250px; margin:0 auto; overflow:hidden; border-bottom:1px solid #CCC;}
+.nav ul li div dl a{ font-size:12px;}
+.nav ul li div dl dt{ height:30px; text-align:left; line-height:30px;}
+.nav ul li div dl dt a{ color:#09F; font-size:14px;}
+.nav ul li div dl dd{ float:left; width:120px; line-height:15px; border-right:1px solid #CCC; margin:3px 0;}
+.nav ul li div dl dd a{ color:#CCC;}
+.banner{background: #f0f0f0; padding: 20px 0;}
+
+/*example*/
+.example{ width:995px; margin:0 auto;}
+.example ol{position:relative;width: 80px;height: 20px;top:-30px;left:800px;}
+.example ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;border-radius:10px;}
+.example ol li.seleted{background: #1AA4CA;}
+/*渐隐*/
+.luara-{position:relative;padding:0;overflow: hidden;}
+.luara- ul{padding: inherit;margin: 0;}
+.luara- ul li{display: none;padding: inherit;margin: inherit;list-style: none;}
+.luara- ul li:first-child{display:block;}
+.luara- ul li img{width: inherit;height: inherit;}
+
+.content{ width:1000px; margin:0 auto;}
+.left{ width:700px; float:left}
+.right{ width:300px; float:right;}
+.mud{ overflow:hidden;}
+.mud h3,.hot h3,.fresh h3{color: #2b2b2b; font-size: 18px; line-height:40px; font-weight:100;}
+.mud li{float: left; width: 312px; padding-right: 38px;}
+.mud li h5{color: #2b2b2b; font-weight: bold; font-size: 16px; line-height: 40px; overflow: hidden;}
+.mud li p{color: #9c9c9c; line-height: 20px; font-size:12px;}
+
+.hot{ overflow:hidden; margin-top:20px;}
+.hot img,.text{ float:left;}
+.text{ width:350px; padding:0 16px;}
+.text h5{font-size: 16px; color: #2b2b2b;}
+.text p{color: #9c9c9c; padding: 5px 0; font-size:12px; text-indent:2em;}
+.text ul li{ line-height:20px; background:url(icon_list_bg.gif) 1px 12px no-repeat; padding-left:10px;}
+.text ul li a{ font-size:12px; text-decoration:none; color:#2b2b2b;}
+.text ul li a:hover{ text-decoration:underline;}
+.more{ padding:40px 10px; clear:both;}
+.more span,.more a{ font-size:12px; color:#2b2b2b; text-decoration:none;}
+.fresh ul li{ width:200px; margin-right:20px; margin-bottom:10px; float:left;}
+.fresh ul li h5{ clear:both;line-height: 25px; overflow: hidden; }
+.fresh ul li h5 a{color: #555; font-size: 14px; font-weight: 100;}
+.fresh ul li p{ line-height:30px;}
+.mid{ line-height:30px; padding:0 5px;}
+.mid span{ font-size:12px;}
+.from{ float:right; font-size:12px;color:#2b2b2b;}
+.from a{ text-decoration:none; color:#2b2b2b;}
+.fresh ul li b{ display:block; width:40px; height:20px; background:#94CF72 url(index_icon.png) 1px -40px no-repeat; color:#FFF; padding-left:30px;}
